@@ -1,0 +1,173 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #6d7b93;
+  margin: 0;
+}
+p {
+  line-height: 30px;
+}
+.page-header {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 50%,
+    rgba(140, 236, 255, 0.5) 100%
+  );
+  display: inline-flex;
+  width: 100%;
+  margin: auto;
+  padding-left: 0;
+}
+.logo {
+  margin: 30px 50px;
+  color: #3051d4;
+  font-size: 20px;
+  font-weight: 900;
+}
+.header-nav-section {
+  display: inline-flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: 0;
+}
+.nav-link {
+  margin: 30px 20px;
+  color: #68768f;
+}
+.half-page {
+  width: 50%;
+  height: auto;
+}
+.text-section {
+  padding: 40px;
+}
+.autosize-img {
+  width: 100%;
+  height: auto;
+}
+.button-primary {
+  margin: 30px 20px;
+  color: #ffffff;
+  font-weight: 900;
+  align-items: center;
+  background-color: #3757d5;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+.inline-page-section {
+  display: inline-flex;
+  flex-direction: row;
+  width: 100%;
+  height: auto;
+  margin: 0;
+}
+.credits {
+  display: none;
+}
+.title {
+  color: #1e3d71;
+  font-size: 50px;
+  font-weight: 900;
+}
+.button-secondary {
+  margin: 30px 20px;
+  font-weight: 600;
+  color: #1f3e72;
+  background-color: #ffffff;
+  border: 0;
+  align-items: center;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+.warning {
+  color: #ffd012;
+}
+.bolder {
+  font-weight: 900;
+}
+.primary {
+  color: #3051d4;
+}
+.schedule {
+  position: relative;
+  top: 10px;
+  right: 0px;
+  left: 50px;
+  display: inline-flex;
+  background-color: rgb(255, 255, 255, 0.9);
+}
+.schedule-data {
+  padding: 0px 20px;
+  justify-content: center;
+}
+.empty-space {
+  height: 100px;
+}
+.logo-img {
+  height: 50px;
+  margin: auto;
+}
+.inline-segment {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.icon-box {
+  background-color: #e8eefe;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 20px;
+  width: 30px;
+  color: #3051d4;
+}
+.padding50 {
+  padding: 50px;
+}
+.card {
+  height: auto;
+  width: fit-content;
+  margin: 20px;
+  font-size: small;
+}
+
+.card:nth-child(2) {
+  box-shadow: -1px 11px 8px -5px rgba(130, 130, 130, 0.75);
+}
+.list-container {
+  display: flex;
+  flex-direction: column;
+}
+.list-item {
+  margin-bottom: 10px;
+}
+.list-item p {
+  font-size: small;
+  box-shadow: -1px 11px 8px -5px rgba(130, 130, 130, 0.75);
+}
+.small-text {
+  font-size: small;
+}
+.icon-box-card {
+  align-content: center;
+  text-align: center;
+  border-radius: 10px;
+  line-height: 40px;
+  background-color: #e8eefe;
+  font-size: 20px;
+  width: 40px;
+  height: 40px;
+  vertical-align: middle;
+  color: #3051d4;
+}
+.f {
+  display: inline-flex;
+}
+footer {
+  background-color: #edf2fe;
+  font-size: small;
+}
+footer div{
+  margin: auto;
+}
