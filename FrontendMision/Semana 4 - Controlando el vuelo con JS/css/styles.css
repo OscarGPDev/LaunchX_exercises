@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  color: #ffffff;
+  background-color: #00265f;
+}
+
+
+
+header {
+  width: 100%;
+}
+header h1 {
+  text-align: center;
+  margin: 1% auto;
+}
+
+.d-none{
+  display: none;
+}
+.half {
+    display: flex;
+  background-color: #ff0000;
+  align-content: center;
+  width: 90%;
+  margin-left: 5%;
+  outline: 10px outset #888888;
+  outline-offset: 0px;
+  border-radius: 13px;
+  flex-direction: column;
+  justify-content: center;
+}
+.lcd-input {
+  background-color: #9dc63f;
+  color: #273800;
+  /* align-self: middle; */
+  /* width: 80%; */
+  border: 16px groove #888888;
+  border-radius: 13px;
+}
+.pokedisplay{
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    border: none;
+}
+.pokedisplay-container{
+    background-color: #888888;
+    width: 550px;
+    height: 550px;
+}
