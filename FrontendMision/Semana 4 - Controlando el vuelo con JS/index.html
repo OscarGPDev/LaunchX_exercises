@@ -3,6 +3,7 @@
   <head>
     <title>Pokédex</title>
     <link rel="stylesheet" href="./css/styles.css" />
+    <script src="https://kit.fontawesome.com/101326ea39.js" crossorigin="anonymous"></script>
   </head>
   <body>
     <section>
@@ -19,13 +20,40 @@
             class="lcd-input"
             placeholder="Ingresa el nombre del pokémon"
           />
+          <button class="btn" ><i class="fa-solid fa-magnifying-glass"></i></button>
         </div>
-        <div class="pokedisplay-container">
-          <img id="pokedisplay" class="pokedisplay" src="./img/pokeball.png" />
+        <div id="pokedisplay-container"  class="pokedisplay-container">
+          <img class="pokedisplay" src="./img/pokeball.png" />
         </div>
       </section>
       <section id="pokemonData">
         <h3>{name}</h3>
+        <table>
+          <thead>
+            <tr>
+              <td colspan="6">Estadisticas</td>
+            </tr>
+            <tr>
+              <td>hp</td>
+              <td>attack</td>
+              <td>defense</td>
+              <td>special attack</td>
+              <td>special defense</td>
+              <td>speed</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>{hp}</td>
+              <td>{attack}</td>
+              <td>{defense}</td>
+              <td>{special-attack}</td>
+              <td>{special-defense}</td>
+              <td>{speed}</td>
+            </tr>
+          </tbody>
+        </table>
+        
         Tipo de pokemón: {types} Estadísticas:{stats} Movimientos:{movements}
       </section>
     </main>
