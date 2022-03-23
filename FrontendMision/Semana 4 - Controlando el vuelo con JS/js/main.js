@@ -114,7 +114,11 @@ const pokedex = () => {
   const setPokemonData = async (pokemonName) => {
     if (pokemonName) {
       setLoading();
-      const pokemonData = await getPokemonData(pokemonName);
+      const pokemonData = await getPokemonData(
+        typeof pokemonName == typeof ""
+          ? pokemonName.toLowerCase()
+          : pokemonName
+      );
       if (pokemonData.requestFailed) {
         imageContainer.innerHTML = imageTemplate.replace(
           "{imgSrc}",
