@@ -17,7 +17,6 @@ export default {
 };
 </script>
 
-
 <template>
   <header class="page-header">
     <div class="logo">
@@ -70,9 +69,14 @@ export default {
   width: 100%;
   margin: auto;
   padding-left: 0;
+  border-bottom: 1px solid #dee2e6 !important;
+  height: 80px;
+  margin-bottom: 50px;
+
 }
 .logo {
   /* margin: 30px 50px; */
+  margin: auto 0;
   color: #3051d4;
 }
 .header-nav-section {
@@ -85,7 +89,7 @@ a {
   text-decoration: none;
 }
 .nav-link {
-  margin: 10px 20px;
+  margin: 1vh auto;
   color: #68768f;
   padding: 5px 10px;
   border-radius: 5px;
@@ -97,4 +101,5 @@ a {
 .selected {
   background-color: #f3ffc6;
 }
+
 </style>

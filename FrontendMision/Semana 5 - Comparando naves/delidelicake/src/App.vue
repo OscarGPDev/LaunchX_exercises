@@ -1,14 +1,14 @@
 <script setup>
-import { RouterLink, RouterView } from "vue-router";
-import HelloWorld from "@/components/HelloWorld.vue";
-import Header from "@/components/Header.vue";
+import { RouterView } from "vue-router";
+
+import MainHeader from "@/components/MainHeader.vue";
 </script>
 
 <template>
-<Header/>
-<main>
-<RouterView />
-</main>
+  <MainHeader />
+  <main>
+    <RouterView />
+  </main>
   <!-- <header>
     
 
@@ -26,27 +26,31 @@ import Header from "@/components/Header.vue";
 </template>
 
 <style>
+@import "@/assets/base.css";
 
-
-
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  font-weight: normal;
+}
 /* @media (hover: hover) {
   a:hover {
     background-color: hsla(160, 100%, 37%, 0.2);
   }
 } */
 
-
 @media (min-width: 1024px) {
-  /* body {
+  body {
     display: flex;
     place-items: center;
+  }
+   /* #app {
+     grid-template-columns: 1fr 1fr; 
+    margin: 0 2rem; 
   } */
-
-  /* #app {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 0 2rem;
-  } */
-
+  
 }
+main{
+    box-sizing: border-box;
+  }
 </style>
