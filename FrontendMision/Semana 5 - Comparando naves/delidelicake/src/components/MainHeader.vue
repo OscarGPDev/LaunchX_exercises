@@ -72,7 +72,6 @@ export default {
   border-bottom: 1px solid #dee2e6 !important;
   height: 80px;
   margin-bottom: 50px;
-
 }
 .logo {
   /* margin: 30px 50px; */
@@ -93,6 +92,7 @@ a {
   color: #68768f;
   padding: 5px 10px;
   border-radius: 5px;
+  text-align: center;
 }
 .flowerFont {
   font-family: "Indie Flower", cursive;
@@ -101,5 +101,4 @@ a {
 .selected {
   background-color: #f3ffc6;
 }
-
 </style>
