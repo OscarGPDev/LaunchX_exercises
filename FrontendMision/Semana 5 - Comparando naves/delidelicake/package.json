@@ -8,9 +8,12 @@
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
   },
   "dependencies": {
+    "@yaireo/dragsort": "^1.2.0",
+    "@yaireo/tagify": "^4.9.8",
     "sweetalert2": "^11.4.7",
     "vue": "^3.2.31",
-    "vue-router": "^4.0.12"
+    "vue-router": "^4.0.12",
+    "vuex": "^4.0.2"
   },
   "devDependencies": {
     "@rushstack/eslint-patch": "^1.1.0",

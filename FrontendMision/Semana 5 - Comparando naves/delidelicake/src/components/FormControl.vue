@@ -20,6 +20,11 @@ defineProps({
 </script>
 
 <template>
-  <label :for="id" class="form-label">{{label}}</label>
-  <input :type="type" class="form-control" :id="id" :placeholder="placeholder">
+  <label :for="id" class="form-label">{{ label }}</label>
+  <input
+    :type="type"
+    class="form-control"
+    :id="id"
+    :placeholder="placeholder"
+  />
 </template>

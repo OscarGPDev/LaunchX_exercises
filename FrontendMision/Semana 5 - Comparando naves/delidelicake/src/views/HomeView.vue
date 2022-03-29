@@ -54,7 +54,6 @@ h2 {
   color: black;
   margin-top: 10px;
   margin-bottom: 10px;
-  
 }
 p {
   margin: auto;

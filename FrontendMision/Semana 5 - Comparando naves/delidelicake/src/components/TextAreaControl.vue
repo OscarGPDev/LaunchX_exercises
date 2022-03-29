@@ -22,6 +22,11 @@ defineProps({
 <template>
   <div class="mb-3">
     <label :for="id" class="form-label">{{ label }}</label>
-    <textarea class="form-control" :id="id" :rows="rows" :placeholder="placeholder"></textarea>
+    <textarea
+      class="form-control"
+      :id="id"
+      :rows="rows"
+      :placeholder="placeholder"
+    ></textarea>
   </div>
 </template>

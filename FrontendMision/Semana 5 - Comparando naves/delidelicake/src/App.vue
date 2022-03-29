@@ -2,6 +2,7 @@
 import { RouterView } from "vue-router";
 
 import MainHeader from "@/components/MainHeader.vue";
+import "sweetalert2/src/sweetalert2.scss";
 </script>
 
 <template>
@@ -44,13 +45,12 @@ import MainHeader from "@/components/MainHeader.vue";
     display: flex;
     place-items: center;
   }
-   /* #app {
+  /* #app {
      grid-template-columns: 1fr 1fr; 
     margin: 0 2rem; 
   } */
-  
 }
-main{
-    box-sizing: border-box;
-  }
+main {
+  box-sizing: border-box;
+}
 </style>

@@ -83,6 +83,10 @@ body {
 .col {
   flex: 1 0 0%;
 }
+.col-11 {
+  flex: 0 0 auto;
+  width: 83%;
+}
 @media (min-width: 576px) {
   .container {
     max-width: 540px;
