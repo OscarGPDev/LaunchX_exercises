@@ -11,7 +11,7 @@ export default createStore({
   },
   mutations: {
     saveOrder(state, order) {
-      state.orders.push(order);
+      state.orders.push({ ...order });
       Swal.fire({
         title: `¡Éxito al registrar el pedido ${order.name}!`,
         text: "En cuanto sea revisado, se te contactará para informarte el tiempo apróximado de entrega y costo final.",

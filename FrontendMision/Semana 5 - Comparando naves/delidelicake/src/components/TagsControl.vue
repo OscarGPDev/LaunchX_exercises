@@ -51,12 +51,8 @@ const dragSortTagify = (tagifyElement) => {
 };
 export default {
   data() {
-    return {
-      count: 1,
-    };
+    return {};
   },
-
-  // `mounted` is a lifecycle hook which we will explain later
   mounted() {
     const tagifyElement = new Tagify(document.getElementById(this.$props.id), {
       whitelist: this.$props.tagifyData,

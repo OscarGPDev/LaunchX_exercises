@@ -178,3 +178,7 @@ label {
   padding-left: calc(var(--bs-gutter-x) * 0.5);
   flex-shrink: 0;
 }
+.img-fluid{
+  width:100%;
+  height: auto;
+}

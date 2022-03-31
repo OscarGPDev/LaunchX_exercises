@@ -4,25 +4,25 @@ import TextAreaControl from "../components/TextAreaControl.vue";
 import TagsControl from "../components/TagsControl.vue";
 
 const flavorsData = [
-  { value: "Chocolate - 100$/kg", price: "100" },
-  { value: "Fresa - 90$/kg", price: "90" },
-  { value: "Limón - 110$/kg", price: "110" },
-  { value: "Vainilla - 95$/kg", price: "95" },
+  { value: "Chocolate - 100$/kg", price: "100", id: "Chocolate" },
+  { value: "Fresa - 90$/kg", price: "90", id: "Fresa" },
+  { value: "Limón - 110$/kg", price: "110", id: "Limón" },
+  { value: "Vainilla - 95$/kg", price: "95", id: "Vainilla" },
 ];
 const cakeDecorationsData = [
-  { value: "Caramelo - 100$", price: "100" },
-  { value: "Frutas - 90$", price: "90" },
-  { value: "Fondant - 110$", price: "110" },
-  { value: "Velas clásicas - 95$", price: "95" },
-  { value: "Velas con números - 95$", price: "95" },
-  { value: "Figura de boda - 95$", price: "95" },
+  { value: "Caramelo - 100$", price: "100", id: "Caramelo" },
+  { value: "Frutas - 90$", price: "90", id: "Frutas" },
+  { value: "Fondant - 110$", price: "110", id: "Fondant" },
+  { value: "Velas clásicas - 95$", price: "95", id: "Velas clásicas" },
+  { value: "Velas con números - 95$", price: "95", id: "Velas con números" },
+  { value: "Figura de boda - 95$", price: "95", id: "Figura de boda" },
 ];
 const cakeFillingData = [
-  "Crema para batir",
-  "Mermelada de fresa",
-  "Mermelada de durazno",
-  "Mermelada de piña",
-  "Ganache",
+  { value: "Crema para batir", id: "Crema para batir" },
+  { value: "Mermelada de fresa", id: "Mermelada de fresa" },
+  { value: "Mermelada de durazno", id: "Mermelada de durazno" },
+  { value: "Mermelada de piña", id: "Mermelada de piña" },
+  { value: "Ganache", id: "Ganache" },
 ];
 </script>
 <script>
@@ -45,9 +45,11 @@ export default {
         phoneNumber: document.getElementById("txtPhoneNumber").value,
         email: document.getElementById("txtEmail").value,
         description: document.getElementById("txtDescription").value,
-        flavors: document.getElementById("txtFlavors").value,
-        decorations: document.getElementById("txtCakeDecorations").value,
-        fillings: document.getElementById("txtCakeFilling").value,
+        flavors: JSON.parse(document.getElementById("txtFlavors").value),
+        decorations: JSON.parse(
+          document.getElementById("txtCakeDecorations").value
+        ),
+        fillings: JSON.parse(document.getElementById("txtCakeFilling").value),
       });
     },
   },
