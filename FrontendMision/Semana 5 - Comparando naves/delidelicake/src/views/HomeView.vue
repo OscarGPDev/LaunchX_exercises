@@ -19,6 +19,12 @@
                 Esta vez esto fue realizado en Vue.js y los estilos fueron
                 hechos a mano, notarás algunas diferencias respecto a la
                 anterior, personalmente creo que me quedo mejor.
+                <br />
+                <b>
+                  En esta ocasión, los pedidos que registres son los que se
+                  mostrarán en la pantalla de ordenes, y ahora las tablas tienen
+                  ordenamiento
+                </b>
               </p>
             </div>
           </div>
@@ -60,5 +66,8 @@ p {
 }
 .center {
   text-align: center;
+}
+b {
+  color: black;
 }
 </style>
